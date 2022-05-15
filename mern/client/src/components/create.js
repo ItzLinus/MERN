@@ -51,6 +51,7 @@ export default function Create() {
            className="form-control"
            id="name"
            value={form.name}
+           autoComplete="off"
            onChange={(e) => updateForm({ name: e.target.value })}
          />
        </div>
