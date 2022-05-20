@@ -6,6 +6,8 @@ import "bootstrap/dist/css/bootstrap.css";
 // We import NavLink to utilize the react router.
 import { NavLink } from "react-router-dom";
 
+export default function Create() {
+
 return (
     <><header>
         <div class="container">
@@ -20,3 +22,4 @@ return (
             </div>
         </div></>
 );
+}
